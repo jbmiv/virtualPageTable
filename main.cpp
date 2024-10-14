@@ -128,6 +128,11 @@ int main(int argc, char* argv[]){
 			printf("Level %d page table must be at least 1 bit\n",i);
 			exit(NORMAL_EXIT);	
 		}
+		//
+		//
+		//
+		//
+		//
 
         //load pageTable with the input data
 		pageTable->inputBits[i] = atoi(argv[optidx]);
